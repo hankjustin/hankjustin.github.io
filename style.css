@@ -7,6 +7,20 @@ header {
     border: 1px solid red;
 }
 
+h1 {
+    font-size: 50px;
+    padding: 15px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+p {
+    padding: 5px;
+    line-height: 25px;
+}
+
 @keyframes slider {
     0% {
         left: 0;
