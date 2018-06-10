@@ -1,5 +1,5 @@
 body {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -14,18 +14,20 @@ h1 {
 
 h2 {
     padding: 10px;
+    font-size: 30px;
 }
 
 p {
-    padding: 5px;
-    line-height: 25px;
+    padding: 10px;
+    line-height: 23px;
     text-align: justify;
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-    -webkit-column-gap: 50px;
-    -moz-column-gap: 50px;
-    column-gap: 50px;
+    font-size: 18.5px;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    /* -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;*/
 }
 
 @keyframes slider {
