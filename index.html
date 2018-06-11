@@ -7,11 +7,15 @@
     <title>Turles Born</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="javascript.js"></script>
+    <script src="javasc.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+
 </head>
 
 <body>
     <header>
+        <div class="toggle"><i class="fa fa-bars menu" aria-hidden="true"></i></div>
+
         <nav>
             <ul>
                 <li>
@@ -22,6 +26,14 @@
                     <a href="">Supporters</a></li>
             </ul>
         </nav>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.menu').click(function() {
+                    $('ul').toggleClass('active');
+                })
+            })
+        </script>
     </header>
     <div id="slider">
         <figure>
