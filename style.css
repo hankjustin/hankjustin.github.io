@@ -69,6 +69,9 @@ ul li a {
     .active {
         display: block;
     }
+    .bg {
+        height: 205px;
+    }
 }
 
 
