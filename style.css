@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 auto;
     font-family: sans-serif;
 }
 
@@ -314,8 +314,7 @@ footer {
 }
 
 .footer-socialmedia {
-    font-size: 25px;
-    padding: 5px 15px;
+    font-size: 28px;
 }
 
 @media screen and (max-width:750px) {
