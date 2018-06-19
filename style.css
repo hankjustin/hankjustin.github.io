@@ -92,8 +92,8 @@ h1 {
 }
 
 video {
-    width: 440px;
-    height: 380px;
+    width: 100%;
+    height: 480px;
 }
 
 #centre {
@@ -173,7 +173,6 @@ p {
 }
 
 aside {
-    border: 1px solid yellow;
     margin: 15px 5px;
 }
 
@@ -310,8 +309,13 @@ footer {
     line-height: 40px;
     border-radius: 50%;
     background: #fff;
-    color: #000;
+    color: black;
     text-align: center;
+}
+
+.footer-socialmedia {
+    font-size: 25px;
+    padding: 5px 15px;
 }
 
 @media screen and (max-width:750px) {
