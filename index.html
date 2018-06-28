@@ -4,39 +4,44 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Turles Born</title>
+    <title>Roatan Turtles</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="javasc.js"></script>
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+            $('.flexslider').flexslider();
+        });
+    </script>
+
 
 </head>
 
 <body>
-    <header>
-        <div class="toggle"><i class="fa fa-bars menu" aria-hidden="true"></i></div>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                    Roatan Turtles
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Supporters</a></li>
+                        <li><a href="#">Locate Eggs</a></li>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="">Watch Turtles Born</a></li>
-
-                <li>
-                    <a href="">Supporters</a></li>
-            </ul>
-        </nav>
-        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $('.menu').click(function() {
-                    $('ul').toggleClass('active');
-                })
-            })
-        </script>
-    </header>
-    <div class="bg"></div>
-    <section>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
         <div class="flexslider">
             <ul class="slides">
@@ -44,12 +49,13 @@
                     <img src="img/n1.jpg" alt="">
                     <section class="flex-caption"></section>
                 </li>
+
                 <li>
                     <img src="img/n2.jpg" alt="">
                     <section class="flex-caption"></section>
                 </li>
                 <li>
-                    <img src="img/n3.jpg" alt="">
+                    <img src="img/t1.jpg" alt="">
                     <section class="flex-caption"></section>
                 </li>
                 <li>
@@ -61,7 +67,7 @@
                     <section class="flex-caption"></section>
                 </li>
                 <li>
-                    <img src="img/n6.jpg" alt="">
+                    <img src="img/t3.jpg" alt="">
                     <section class="flex-caption"></section>
                 </li>
                 <li>
@@ -69,7 +75,7 @@
                     <section class="flex-caption"></section>
                 </li>
                 <li>
-                    <img src="img/n8.jpg" alt="">
+                    <img src="img/t6.jpg" alt="">
                     <section class="flex-caption"></section>
                 </li>
                 <li>
@@ -96,86 +102,89 @@
                     <img src="img/n14.jpg" alt="">
                     <section class="flex-caption"></section>
                 </li>
+                <li>
+                    <img src="img/n6.jpg" alt="">
+                    <section class="flex-caption"></section>
+                </li>
+                <li>
+                    <img src="img/n3.jpg" alt="">
+                    <section class="flex-caption"></section>
+                </li>
+                <li>
+                    <img src="img/n8.jpg" alt="">
+                    <section class="flex-caption"></section>
+                </li>
             </ul>
         </div>
-        <div class="content">
-            <h1 id="centre">About this Specie</h1>
-            <br>
-            <h1>Loggerhead</h1>
-            <h2>Scientific Name: Caretta caretta</h2>
-            <P>
-                Description: Head is very large with heavy strong jaws. Carapace is bony without ridges and has large, non-overlapping, rough scutes (scales) present with 5 lateral scute. Carapace is heart shaped. Front flippers are short and thick with 2 claws, while
-                the rear flippers can have 2 or 3 claws. Carapace is a reddish-brown with a yellowish-brown plastron. Hatchlings have a dark-brown carapace with flippers pale brown on margins.</p><br>
-            <p>Size: Typically 2.5 to 3.5 feet in carapace length (80 to 110 cm).</p><br>
-            <p>Weight: Adult weigh between 155 and 375 pounds (70 to 170 kg).</p><br>
-            <p>Diet: Primarily carnivorous and feed mostly on shellfish that live on the bottom of the ocean. They eat horseshoe crabs, clams, mussels, and other invertebrates. Their powerful jaw muscles help them to easily crush the shellfish.</p><br>
-            <p>Habitat: Prefer to feed in coastal bays and estuaries, as well as in the shallow water along the continental shelves of the Atlantic, Pacific and Indian Oceans.</p><br>
-            <p>Nesting: Nest at intervals of 2 to 4 years. They lay 3 to 6 nests per season, approximately 12 to 14 days apart. Lays average of between 100 to 126 eggs in each nest. Eggs incubate for about 60 days.
-            </p><br>
-            <p>Threats to Survival: The greatest threat is loss of nesting habitat due to coastal development, predation of nests, and human disturbances (such as coastal lighting and housing developments) that cause disorientations during the emergence
-                of hatchlings. Other major threats include incidental capture in longline fishing, shrimp trawling and pollution. Incidental capture in fisheries is thought to have played a significant role in the recent population declines observed for
-                the loggerhead.</p><br>
-            <p>Population Estimate*: Between 40,000 and 50,000 nesting females.
-            </P>
-        </div>
-    </section>
-    <aside>
-
-        <h1>Turtle Laying Eggs!</h1>
-        <video controls>
-            <source src="vid.mp4" type="video/mp4"/>
-        </video>
-
-
-    </aside>
-
-    <footer>
-        <div class="info-container">
-            <div class="info-main">
-                <h3>Information about Turtle</h3>
-                <p>This turtle in the video was recorded in Honduras, Roatan, West Bay, in front of a hotel (Grand Roatan). This video show part of when the turtle came up on the beach and started to dig a whole, and to our surprise she started to lay eggs.
-                    After she got true laying the eggs she returned to the sea. The Grand Roatan administration alone side the Marine Park of Roatan, and others organization proceeded to protect the eggs and watch over them until they're ready to hatch.
-                </p>
-                <a href="#">More Information</a>
-            </div>
-        </div>
-
-
         <footer>
-            <div class="footer-container">
-                <div class="footer-main">
-                    <div class="footer-column">
-                        <h3>Contact Developer</h3>
-                        <span class="fa fa-phone"><p>(+504)9430-3195</p></span>
-                        <span class="fa fa-envelope"><p>hjbodden95@gmail.com</p></span>
-                    </div>
-                    <div class="footer-column">
-                        <h3>Location of Eggs</h3>
-                        <span class="fa fa-map-marker"><p>Honduras, Roatan West Bay, Grand Roatan.</p></span>
-                        <span class="fa fa-phone"><p>(+504)9430-3195</p></span>
-                        <span class="fa fa-envelope"><p>hjbodden95@gmail.com</p></span>
-                    </div>
-                    <div class="footer-column">
-                        <h3>About Us</h3>
-                        <p>The Marine Park of Roatan is hear to protect the waters and what ever lives it, we are watching over the turte eggs and we are waitng patiently for them to hatch, LET'S PROTECT TURTLES LIVES!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-copy-socialmedia">
-                <div class="main-copy-socialmedia">
-                    <div class="footer-copy">
-                        &copy; 2018, All Rights Reserved - | Watch Turtles Born |.
-                    </div>
-                    <div class="footer-socialmedia">
-                        <a href="https://www.facebook.com/hank.jackson.9809672" target="_blank" class="fa fa-facebook-f"></a>
-
-                        <a href="https://www.youtube.com/watch?v=g-hvA-PrUT0" target="_blank" class="fa fa-youtube-square"></a>
-
-                    </div>
+            <div class="info-container">
+                <div class="info-main">
+                    <h3>Information about Turtle</h3>
+                    <p>This turtle in the video was recorded in Honduras, Roatan, West Bay, in front of a hotel (Grand Roatan). This video show part of when the turtle came up on the beach and started to dig a whole, and to our surprise she started to lay
+                        eggs. After she got true laying the eggs she returned to the sea. The Grand Roatan administration alone side the Marine Park of Roatan, and others organization proceeded to protect the eggs and watch over them until they're ready
+                        to hatch.
+                    </p>
+                    <a href="more.html">More Information</a>
                 </div>
             </div>
 
-        </footer>
+
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-main">
+                        <div class="footer-column">
+                            <h3>Contact Developer</h3>
+                            <span class="fa fa-phone"><p>(+504)9430-3195</p></span>
+                            <span class="fa fa-envelope"><p>hjbodden95@gmail.com</p></span>
+                        </div>
+                        <div class="footer-column">
+                            <h3>Location of Eggs</h3>
+                            <span class="fa fa-map-marker"><p>Honduras, Roatan West Bay, Grand Roatan.</p></span>
+                            <span class="fa fa-phone"><p>(+504)9430-3195</p></span>
+                            <span class="fa fa-envelope"><p>hjbodden95@gmail.com</p></span>
+                        </div>
+                        <div class="footer-column">
+                            <h3>About Us</h3>
+                            <p>The Marine Park of Roatan is hear to protect the waters and what ever lives it, we are watching over the turte eggs and we are waitng patiently for them to hatch, LET'S PROTECT TURTLES LIVES!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copy-socialmedia">
+                    <div class="main-copy-socialmedia">
+                        <div class="footer-copy">
+                            &copy; 2018, All Rights Reserved - | Watch Turtles Born |.
+                        </div>
+                        <div class="footer-socialmedia">
+                            <a href="https://www.facebook.com/hank.jackson.9809672" target="_blank" class="fa fa-facebook-f"></a>
+
+                            <a href="https://www.youtube.com/watch?v=g-hvA-PrUT0" target="_blank" class="fa fa-youtube-square"></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </footer>
+
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $(".menu-icon").on("click", function() {
+                        $("nav ul").toggleClass("showing");
+                    });
+                });
+
+                $(window).on("scroll", function() {
+                    if ($(window).scrollTop()) {
+                        $('nav').addClass('black');
+                    } else {
+                        $('nav').removeClass('black');
+                    }
+                })
+            </script>
+
+
+    </div>
+
 
 </body>
 
