@@ -26,6 +26,28 @@
 }
 
 
+/*************emailstylelink*******************/
+
+#hj {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#hj1 {
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+
+/***********contact*******/
+
+.contat {
+    background-color: aquamarine;
+}
+
+
 /***************this is nav bar styling******************/
 
 * {
@@ -97,8 +119,8 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
-    font-size: 16px;
+    color: rgb(245, 224, 196);
+    font-size: 18px;
 }
 
 .menu-icon {

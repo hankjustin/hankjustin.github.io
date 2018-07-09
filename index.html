@@ -13,6 +13,24 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <script src="js/jquery.flexslider.js"></script>
+
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                $("nav ul").toggleClass("showing");
+            });
+        })
+
+        $(window).on("scroll", function() {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+
+
     <script type="text/javascript" charset="utf-8">
         $(window).load(function() {
             $('.flexslider').flexslider();
@@ -37,6 +55,7 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Supporters</a></li>
                         <li><a href="map.html">Locate Eggs</a></li>
+                        <li><a href="https://hankjustin.github.io/form/">Contact Us</a></li>
 
                     </ul>
                 </div>
@@ -139,6 +158,9 @@
                 </li>
             </ul>
         </div>
+        <div class="contat">
+            <p id="ff">If you want to tell us what you think <a id="hj1" href="https://hankjustin.github.io/form/" target="_blank">CLICK HEAR</a></p>
+        </div>
         <footer>
             <div class="info-container">
                 <div class="info-main">
@@ -156,13 +178,12 @@
                         <div class="footer-column">
                             <h3>Contact Developer</h3>
                             <span class="fa fa-phone"><p>(+504)9430-3195</p></span>
-                            <span class="fa fa-envelope"><p>hjbodden95@gmail.com</p></span>
+                            <span class="fa fa-envelope"><a id="hj" href="https://hankjustin.github.io/form/" target="_blank">hjbodden95@gmail.com</a></span>
                         </div>
                         <div class="footer-column">
                             <h3>Location of Eggs</h3>
-                            <span class="fa fa-map-marker"><p>Honduras, Roatan West Bay, Grand Roatan.</p></span>
-                            <span class="fa fa-phone"><p>(+504)9430-3195</p></span>
-                            <span class="fa fa-envelope"><p>hjbodden95@gmail.com</p></span>
+                            <a id="hj" href="map.html" target="_blank"> <span class="fa fa-map-marker"><p>Honduras, Roatan West Bay, Grand Roatan.</p></span></a>
+
                         </div>
                         <div class="footer-column">
                             <h3>About Us</h3>
@@ -186,23 +207,6 @@
 
 
             </footer>
-
-            <script type="text/javascript">
-                $(document).ready(function() {
-                    $(".menu-icon").on("click", function() {
-                        $("nav ul").toggleClass("showing");
-                    });
-                });
-
-                $(window).on("scroll", function() {
-                    if ($(window).scrollTop()) {
-                        $('nav').addClass('black');
-                    } else {
-                        $('nav').removeClass('black');
-                    }
-                })
-            </script>
-
 
     </div>
 
