@@ -1,3 +1,31 @@
+/*****************img style more****************/
+
+#edit1 {
+    width: 350px;
+    padding: 10px;
+}
+
+@media(max-width:770px) {
+    #edit1 {
+        width: 315px;
+        padding: 15px;
+    }
+    #edit2 {
+        width: 315px;
+        padding: 15px;
+    }
+}
+
+@media(max-width:312px) {
+    #edit1 {
+        width: 270px;
+    }
+    #edit2 {
+        width: 270px;
+    }
+}
+
+
 /***************this is nav bar styling******************/
 
 * {
@@ -227,6 +255,9 @@ video {
     .slides img {
         width: 100%;
         height: 250px;
+    }
+    #edit1 {
+        width: 310px;
     }
     .flex-control-nav li {
         opacity: 0.01;
