@@ -1,3 +1,29 @@
+/*****************turtle video************/
+
+#tv {
+    width: 850px;
+    margin: 5px;
+}
+
+@media(max-width:1100px) {
+    #tv {
+        width: 650px;
+    }
+}
+
+@media(max-width:685px) {
+    #tv {
+        width: 350px;
+    }
+}
+
+@media(max-width:375px) {
+    #tv {
+        width: 280px;
+    }
+}
+
+
 /*****************img style more****************/
 
 #edit1 {
@@ -203,7 +229,7 @@ nav ul li a {
 
 video {
     width: 85%;
-    padding-left: 250px;
+    margin: 18px;
 }
 
 @media screen and (max-width:1028px) {
