@@ -14,20 +14,26 @@
         width: 315px;
         padding: 15px;
     }
+    #im {
+        width: 310px;
+    }
 }
 
-@media(max-width:312px) {
+@media(max-width:350px) {
     #edit1 {
         width: 270px;
     }
     #edit2 {
         width: 270px;
     }
+    #im {
+        width: 210px;
+    }
 }
 
 @media(max-width:480px) {
     #im {
-        width: 270px;
+        width: 210px;
     }
 }
 
@@ -406,8 +412,8 @@ p {
 /**************update******************/
 
 #im {
-    width: 370px;
-    padding-left: 20px;
+    width: 280px;
+    margin: 10px;
 }
 
 #fin {
@@ -415,7 +421,8 @@ p {
 }
 
 .fn {
-    background: rgba(153, 216, 231, 0.562)
+    background: rgba(153, 216, 231, 0.562);
+    width: 100%;
 }
 
 
