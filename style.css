@@ -54,12 +54,14 @@
     }
     #im {
         width: 210px;
+        height: 350px;
     }
 }
 
 @media(max-width:480px) {
     #im {
         width: 210px;
+        height: 350px;
     }
 }
 
@@ -440,6 +442,8 @@ p {
 #im {
     width: 280px;
     margin: 10px;
+    height: 295px;
+    vertical-align: baseline;
 }
 
 #fin {
